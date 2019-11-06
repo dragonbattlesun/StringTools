@@ -10,15 +10,14 @@
 #import "NSString+Validate.h"
 @implementation NSString (QHEncodeURL)
 
-/// URL encode
+/// URL 编码
 - (NSString *)encodeURLString{
     NSString *escapeCharasterString = @"!*'();:@+$,&=/?%#[]";
     NSCharacterSet *allowedCharacterSet = [[NSCharacterSet characterSetWithCharactersInString:escapeCharasterString] invertedSet];
     return [self stringByAddingPercentEncodingWithAllowedCharacters: allowedCharacterSet];
 }
 
-
-/// URL decode
+/// URL 解码
 - (NSString *)decodeURLString{
     NSString *result = [self stringByRemovingPercentEncoding];
     return result;
