@@ -1,0 +1,6 @@
+framework module StringTools {
+  umbrella header "StringTools-umbrella.h"
+
+  export *
+  module * { export * }
+}

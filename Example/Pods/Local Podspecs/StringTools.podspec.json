@@ -1,0 +1,22 @@
+{
+  "name": "StringTools",
+  "version": "1.0.0",
+  "summary": "A short description of StringTools.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/sunxuzhu/StringTools",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "sunxuzhu": "sunxuzhu@360.cn"
+  },
+  "source": {
+    "git": "https://github.com/sunxuzhu/StringTools.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "StringTools/Classes/**/*"
+}
